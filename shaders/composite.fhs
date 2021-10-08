@@ -1,0 +1,24 @@
+#version 120
+
+#define SHADOW_BRIGHTNESS 0.30
+#define SHADOW_MAP_BIAS 0.85
+
+uniform sampler2D gcolor;
+uniform sampler2D shadow;
+
+varying vec2 lmcoord; 
+
+uniform mat4 shadowModelView;
+uniform mat4 shadowProjection;
+
+const float sunPathRotation = -45.0f;
+const int shadowMapResolution = 2048;//[1024 2048 4096]
+const int noiseTextureResolution = 256;
+const float shadowDistance = 64;
+
+void main() {
+
+/* DRAWBUFFERS:0 */
+gl_FragData[0] = color;
+
+}
