@@ -1,6 +1,6 @@
 # Atlantis-Shaders-vanilla
 
-Its a vanilla shader for minecraft.Hopefully more updates soon.Inspired from enchante default and chocapic better default.
+Its a vanilla shader for minecraft. Hopefully more updates soon.Inspired from sildurs enhanced default and chocapic better default.
 
 # Screenshot of current updates:
 
